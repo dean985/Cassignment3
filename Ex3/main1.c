@@ -18,10 +18,12 @@ int main(){
 
     for (int i = 0; i < LEN; i++)
     {
-        if (i == LEN-1){
-            printf("%d",*(arr+i));
+        if (i == LEN - 1){
+            printf("%d",*(arr+i));    
         }
-        else printf("%d,",*(arr+i));
+        else {
+            printf("%d, ",*(arr+i));
+        }
     }
     
 
