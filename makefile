@@ -1,7 +1,7 @@
 all: isort txtfind
 
 txtfind: txt_find/string_methods.o txt_find/main.o
-	gcc txt_find/string_methods.o txt_find/main.o -o txtfind
+	gcc txt_find/string_methods.o txt_find/main.o -o txt_find/txtfind
 
 txt_find/main.o: txt_find/main.c txt_find/string_methods.h
 	gcc -Wall -c txt_find/main.c
