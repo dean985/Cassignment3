@@ -54,7 +54,15 @@ int substring(char *str1, char *str2){
         ptr2 = str2;
         ptr1++;
     }
-    return 0;
-        
+    return 0;    
 }
 
+void print_lines(char *str){
+    char line[LINE];
+    while (getLine(line)){
+        if (substring(line, str)){
+            puts(line);
+        }
+    }
+    
+}
