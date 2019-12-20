@@ -19,10 +19,10 @@ int main(){
     for (int i = 0; i < LEN; i++)
     {
         if (i == LEN - 1){
-            printf("%d",*(arr+i));    
+            printf("%d\n",*(arr+i));    
         }
         else {
-            printf("%d, ",*(arr+i));
+            printf("%d,",*(arr+i));
         }
     }
     
